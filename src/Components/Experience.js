@@ -1,6 +1,18 @@
 import ResumeButton from "./ResumeButton"
+import { useNavigate } from 'react-router-dom';
+import Resume from './images/GiancarloEvaculaResume.pdf';
 export function Experience(){
+  
+    const navigate = useNavigate();
 
+    const handleViewResume = () => {
+      
+        const resumeRoute =  './images/GiancarloEvaculaResume.pdf';
+
+    // Navigate to the resume route
+    navigate(resumeRoute);
+   
+    }
     return (
         <div>
             <div className="job-container">
@@ -47,7 +59,11 @@ export function Experience(){
                     <div> <a href="https://www.linkedin.com/in/giancarlo-evacula-892a95239"><img className="contacts-img"src={ require ('./images/linkedinicon.png')} alt=""/></a> </div>
                 </div>
 
-                <button className="view-resume">View Resume</button>
+                <a className="view-resume" href={Resume} download="Resume">
+                    View Resume
+                </a>
+
+                
             </div>
         </div>
     )

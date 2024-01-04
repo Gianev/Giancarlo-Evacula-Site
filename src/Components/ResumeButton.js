@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Resume from './images/GiancarloEvaculaResume.pdf';
 const ResumeButton = () => {
   return (
-    <a href="GiancarloEvaculaResume.pdf" className="generic-button" target="_blank" rel="noopener noreferrer">
+    <a href={Resume} download="Resume">
       View Resume
     </a>
   );

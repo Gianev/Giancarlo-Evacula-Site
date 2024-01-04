@@ -6,6 +6,9 @@ import { Link, Route, Routes } from "react-router-dom"
 import { About } from "./Components/About";
 import { Experience } from "./Components/Experience";
 import { Home } from "./Components/Home"
+import  Resume  from "./Components/Resume";
+import {Page, Text, View, Document, StyleSheet} from '@react-pdf/renderer'
+
 function App() {
   return (
     <body>
@@ -44,7 +47,7 @@ function App() {
             <Route path="/home" element ={<Home />} />
             <Route path="/projects" element ={<Projects />} />
             <Route path="/experience" element ={<Experience />} />
-            
+            <Route path="/experience/images/GiancarloEvaculaResume.pdf" element ={<Resume />} />
           </Routes>
     </body>
     

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Giancarlo-Evacula-Site/static/css/main.5299d58f.css",
-    "main.js": "/Giancarlo-Evacula-Site/static/js/main.81411bf9.js",
+    "main.js": "/Giancarlo-Evacula-Site/static/js/main.90b2db24.js",
     "static/js/787.47fc47a1.chunk.js": "/Giancarlo-Evacula-Site/static/js/787.47fc47a1.chunk.js",
     "static/media/javascripticon.png": "/Giancarlo-Evacula-Site/static/media/javascripticon.b2c285307d5d25d3a668.png",
     "static/media/linkedinicon.png": "/Giancarlo-Evacula-Site/static/media/linkedinicon.b1bebb391a157454d569.png",
@@ -18,11 +18,11 @@
     "static/media/pythonicon.jpg": "/Giancarlo-Evacula-Site/static/media/pythonicon.5119c2cb966bcb3e64b0.jpg",
     "index.html": "/Giancarlo-Evacula-Site/index.html",
     "main.5299d58f.css.map": "/Giancarlo-Evacula-Site/static/css/main.5299d58f.css.map",
-    "main.81411bf9.js.map": "/Giancarlo-Evacula-Site/static/js/main.81411bf9.js.map",
+    "main.90b2db24.js.map": "/Giancarlo-Evacula-Site/static/js/main.90b2db24.js.map",
     "787.47fc47a1.chunk.js.map": "/Giancarlo-Evacula-Site/static/js/787.47fc47a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5299d58f.css",
-    "static/js/main.81411bf9.js"
+    "static/js/main.90b2db24.js"
   ]
 }

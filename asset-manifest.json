@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RevampedGianSite-main/static/css/main.5299d58f.css",
-    "main.js": "/RevampedGianSite-main/static/js/main.1f90c64d.js",
+    "main.js": "/RevampedGianSite-main/static/js/main.b60e1999.js",
     "static/js/787.47fc47a1.chunk.js": "/RevampedGianSite-main/static/js/787.47fc47a1.chunk.js",
     "static/media/javascripticon.png": "/RevampedGianSite-main/static/media/javascripticon.b2c285307d5d25d3a668.png",
     "static/media/linkedinicon.png": "/RevampedGianSite-main/static/media/linkedinicon.b1bebb391a157454d569.png",
@@ -18,11 +18,11 @@
     "static/media/pythonicon.jpg": "/RevampedGianSite-main/static/media/pythonicon.5119c2cb966bcb3e64b0.jpg",
     "index.html": "/RevampedGianSite-main/index.html",
     "main.5299d58f.css.map": "/RevampedGianSite-main/static/css/main.5299d58f.css.map",
-    "main.1f90c64d.js.map": "/RevampedGianSite-main/static/js/main.1f90c64d.js.map",
+    "main.b60e1999.js.map": "/RevampedGianSite-main/static/js/main.b60e1999.js.map",
     "787.47fc47a1.chunk.js.map": "/RevampedGianSite-main/static/js/787.47fc47a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5299d58f.css",
-    "static/js/main.1f90c64d.js"
+    "static/js/main.b60e1999.js"
   ]
 }

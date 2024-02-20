@@ -17,7 +17,7 @@ export function About(){
 
     return (
         <div className="master-container">
-            <div className='about-container'>
+            <section className='about-container'>
                 <div className="text-container">
                     <h1>
                         About Me
@@ -43,8 +43,8 @@ export function About(){
                         <a><img className="about-ai"src={ require ('./images/AI.png')} alt=""/></a>
                     </div>
                 </div>
-            </div>
-            <div className='about-container-technical'>
+            </section>
+            <section className='about-container-technical'>
                     <div className="about-left">
                         <h3>Technical Skills</h3>
                         <p>Python</p>
@@ -70,8 +70,9 @@ export function About(){
                         <p>Intro to Software Engineering</p>
                         <p>Operating Systems I</p>
                         <p>Software Tools for Startups</p>
+                        <p>Data Mining</p>
                     </div>
-            </div>
+            </section>
         </div>
 
         

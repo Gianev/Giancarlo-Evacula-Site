@@ -74,6 +74,7 @@ html{
 
 .text-container{
     border: 2px solid black; /* Black solid border */
+    background-color: #ffffff;
     box-shadow: 0 40px 40px rgba(0, 0, 0, 0.1); /* Shadow with a slight transparency */
     padding: 20px;
     max-width: 900px;
@@ -87,15 +88,18 @@ html{
     align-items: center;
     height: 95vh;
     flex-direction: column; 
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(129, 129, 129));
 }
 
 .about-container-technical{
-  background-color: #000000;
+  background: linear-gradient(to bottom,  rgb(129, 129, 129), rgb(0, 0, 0));
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
   flex-direction: row; 
 }
 
@@ -225,10 +229,13 @@ html{
 
   .icon-margin{
     margin-bottom: 70px;
+    
   }
 
 .projtitle{
-  padding: 100px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .langcardholder{
@@ -259,7 +266,7 @@ html{
 
 .about-right {
   flex: 1;
-  background-color: #696969; /* Right div background color */
+  background-color: #ffffff; /* Right div background color */
   color: rgb(0, 0, 0);
   padding: 20px;
   height: 550px;
@@ -298,3 +305,4 @@ html{
               0 0 100px #008cff;
               text-decoration: none;
 }
+

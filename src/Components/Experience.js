@@ -16,7 +16,9 @@ export function Experience(){
     return (
         <div>
             <div className="job-container">
-                
+                <div className="projtitle">
+                    <h>Experience</h>
+                </div>
                 <div className="job-card">
                     <a><img className="about-ai"src={ require ('./images/mtologo.jpg')} alt=""/></a>
                     <div className="card-length">

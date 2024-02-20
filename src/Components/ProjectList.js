@@ -4,7 +4,7 @@ const ProjectList = [
         id:1,
         name: "Gym Buddy",
         description: "Currently in progress...",
-        icons: []
+        icons: ["mongoicon.jpg", "expressicon.jpg","reacticon.png", "nodeicon.jpg"]
     },
 
     {
@@ -44,9 +44,9 @@ const ProjectList = [
 
     {
         id:7,
-        name: "Gym Buddy",
-        description: "Gilbert",
-        icons: []
+        name: "PokeSearch",
+        description: "Quick PokeAPI Searcher that uses usestate and queries for specific Pokemon",
+        icons: ["reacticon.png", "htmlicon.png", "cssicon.jpg"]
     },
 
     {
